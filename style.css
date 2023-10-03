@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 20px 50px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+header ul{
+    display: flex;
+    list-style: none;
+   
+}
+a{
+    letter-spacing: 0.1cm;
+    color: rgb(4, 8, 69);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+
+    
+}
+li{
+    margin: 0px 15px;
+}
+p{
+    letter-spacing: 0.1cm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: inline-block;
+
+   
+}
+.name{
+    color: rgb(4, 8, 69);
+
+  
+}
+.ndname{
+    color:rgb(218, 168, 7) ;
+    
+   
+}
+a:hover{
+    background-color: rgb(218, 168, 7);
+}
+h1{
+text-align-last: center;
+display: inline-block;
+margin-top: 250px;
+margin-left: 100px;
+letter-spacing: 0.1cm;
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(4, 8, 69);
+  
+}
+.text{
+    display: inline-block;
+    color:rgb(63, 63, 97);
+    text-align: center;
+    margin-left:100px ;
+    margin-top: 30px;
+
+}
+#button{
+    margin-left: 100px;
+    background-color: rgb(218, 168, 7);
+    color: rgb(4, 8, 69);
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+   
+    padding: 10px;
+    letter-spacing: 0.1cm;
+    display: inline-block;
+}
+#empty{
+   
+    width: 20vw;
+    height: 60vh;
+    background-color:white;
+    border-radius: 10px;
+    border:rgb(218, 168, 7) solid;
+    margin-left:800px ;
+    position: relative;
+   
+   
+    
+}
+img{
+    width: 20vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 700px;
+    bottom: 10px;
+    border-radius: 10px;
+    
+
+
+}
